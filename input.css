@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-slate-200;
+}
+.header-link-1 {
+    @apply bg-blue-300 h-full flex items-center px-4 hover:bg-blue-100 hover:text-blue-700 hover:underline duration-300 border-x-2 border-white;
+}
+
+.header-link-2 {
+    @apply border-r-2 px-2 border-white h-full flex items-center hover:underline hover:opacity-80 duration-300;
+}
+
+.header-link-3 {
+    @apply px-2 gap-2 h-full flex items-center hover:underline hover:opacity-80 duration-300;
+}
+
+input{
+    @apply border-2 border-gray-400 bg-white pl-3 h-10 rounded-sm focus:outline-none text-xl;
+}
+
+.sociaux {
+    @apply  text-blue-700 cursor-pointer hover:rotate-90 duration-300;
+}
